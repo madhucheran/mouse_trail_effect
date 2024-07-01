@@ -1,0 +1,39 @@
+html {
+    touch-action: none;
+  }
+  
+  body { 
+    background-color: rgb(0, 0, 0);
+  }
+  
+  svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    
+    line { 
+      stroke-width: 5;
+      stroke-linecap: round; 
+      
+      /* #line-1 & {
+        stroke: rgb(219, 93, 93); 
+      }
+      
+      #line-2 & {
+        stroke: rgb(255, 0, 0); 
+      } */
+      
+      #line-3 & {
+        stroke: rgb(1, 225, 255); 
+      }
+    }
+  }
+
+  h1{
+    text-align: center;
+    color: blanchedalmond;
+    margin-top:250px;
+  }
